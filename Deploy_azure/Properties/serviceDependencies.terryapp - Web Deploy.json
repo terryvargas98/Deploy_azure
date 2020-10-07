@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/deploy-azuredbserver/databases/Deploy_azure_db",
+      "type": "mssql.azure",
+      "connectionId": "Server=tcp:deploy-azuredbserver.database.windows.net,1433;InitialCatalog=Deploy_azure_db;PersistSecurityInfo=False;UserID=terry;Password=Vargas98;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
